@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {
+            font-size: 45px;
+            color: brown;
+        }
+        .course.python h2 {
+            color: blue;
+        }
+        .course.salesforce h2 {
+            color: blueviolet;
+        }
+        .course.javascript h2 {
+            color: red;
+        }
+        .course.javascript {
+            background-color: aqua;
+        }
+
+        #username {
+            border: 3px solid rebeccapurple;
+            padding: 10px;
+        }
+
+        /*
+        input { 
+            padding: 30px;
+        }
+        */
+
+        /*
+        input[type="text"]{
+            padding: 20px
+        }
+        
+        
+        */
+        #submit{
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+     
+    <div id="container">
+        <h1 id="header">Courses</h1>
+        <hr>
+        <div class="course python">
+            <h2>Python Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, facilis.</p>
+
+        </div>
+        <div class="course salesforce">
+            <h2>Salesforce Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, facilis.</p>
+
+        </div>
+        <div class="course javascript">
+            <h2>Javascript Course</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias, facilis.</p>
+
+        </div>
+
+        <div>
+            <form >
+                username <input type="text" name="username" id="username"><br>
+                password <input type="password" name="password" id="password"><br>
+                         <input type="submit" value="Login" id="submit">
+            </form>
+        </div>
+    </div>
+    
+
+
+
+</body>
+</html>
